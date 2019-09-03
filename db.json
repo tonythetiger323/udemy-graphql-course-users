@@ -1,8 +1,11 @@
 {
   "users": [
-    { "id": "23", "firstName": "Daddy", "age": 39 },
-    { "id": "46", "firstName": "Puppy", "age": 37 },
-    { "id": "64", "firstName": "Jeff", "age": 55 },
-    { "id": "37", "firstName": "Layzon", "age": 35 }
+    { "id": "23", "firstName": "Daddy", "age": 39, "companyId": "2" },
+    { "id": "46", "firstName": "Puppy", "age": 37, "companyId": "1" },
+    { "id": "37", "firstName": "Layzon", "age": 35, "companyId": "2" }
+  ],
+  "companies": [
+    { "id": "1", "name": "Apple", "description": "iPhone" },
+    { "id": "2", "name": "Google", "description": "search" }
   ]
 }
